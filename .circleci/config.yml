@@ -23,6 +23,7 @@ workflows:
     jobs:
       - welcome/run
       - print_first
-      - print_myjob
-          requires: 
-            - print_first
+      - print_myjob:
+          requires:
+            - print_first 
+            
