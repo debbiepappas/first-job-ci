@@ -17,7 +17,7 @@ jobs:
     steps:
       - run: |
           echo "myjob"
-          echo $MY_NAME
+          echo $MY_ENV_VAR
 workflows:
   # Name the workflow "welcome"
   my-job:
